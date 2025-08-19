@@ -1,7 +1,7 @@
 [
   {
     "nome": "Dell Inspiron 15 (i5-1235U, 8GB RAM, 256GB SSD)",
-    "imagem": "../img/dell inspiron15.jfif",
+    "imagem": "../img/dellinspiron15.jfif",
     "descricao": "Notebook para produtividade e uso geral com construção robusta.",
     "positivos": [
       "Processador Intel i5-1235U (10 núcleos, 12 threads) – bom para multitarefa",
@@ -33,7 +33,7 @@
   },
   {
     "nome": "ASUS VivoBook 15 (Ryzen 7 7520U, 16GB RAM, 256GB SSD)",
-    "imagem": "../img/ASUS VivoBook15.jfif",
+    "imagem": "../img/ASUSVivoBook15.jfif",
     "descricao": "Notebook fino e leve com desempenho premium para produtividade.",
     "positivos": [
       "Processador AMD Ryzen 7 7520U (Zen 3, 8 núcleos) – excelente para edição e multitarefa",
@@ -65,7 +65,7 @@
   },
   {
     "nome": "Lenovo IdeaPad 3 (Ryzen 5 5500U, 8GB RAM, 512GB SSD)",
-    "imagem": "../img/Lenovo IdeaPad3.jfif",
+    "imagem": "../img/LenovoIdeaPad3.jfif",
     "descricao": "Notebook equilibrado com ótimo custo-benefício e armazenamento amplo.",
     "positivos": [
       "Processador AMD Ryzen 5 5500U (6 núcleos, 12 threads) – desempenho superior ao i5 em multitarefa",
@@ -97,7 +97,7 @@
   },
   {
     "nome": "Acer Aspire 5 (i5 13ª geração)",
-    "imagem": "../img/acer aspire5.webp",
+    "imagem": "../img/aceraspire5.webp",
     "descricao": "Notebook com processador i5 13ª geração, bom para multitarefa e upgrades futuros.",
     "positivos": [
       "Processador i5 13ª geração com bom desempenho para multitarefa.",
@@ -132,7 +132,7 @@
   },
   {
     "nome": "Samsung Galaxy Book 4 (i3)",
-    "imagem": "../img/Galaxy Book4.jpg",
+    "imagem": "../img/GalaxyBook4.jpg",
     "descricao": "Notebook leve e eficiente para tarefas básicas e uso escolar.",
     "positivos": [
       "Processador i3 eficiente para tarefas básicas e baixo consumo de energia.",
@@ -167,7 +167,7 @@
   },
   {
     "nome": "Notebook HP com Intel Core i5-1334U",
-    "imagem": "../img/HP i5-1334U.webp",
+    "imagem": "../img/HPi5-1334U.webp",
     "descricao": "Notebook eficiente e econômico para tarefas escolares e uso geral.",
     "positivos": [
       "Processador i5 eficiente e econômico para tarefas escolares.",
@@ -201,7 +201,7 @@
   },
   {
     "nome": "Notebook Gamer Alienware m16 R2",
-    "imagem": "../img/Alienware m16 R2.jfif",
+    "imagem": "../img/Alienwarem16R2.jfif",
     "descricao": "Máquina premium para jogos e edição profissional com specs top de linha",
     "positivos": [
       "Processador Intel Core i9-14900HX (24 núcleos/32 threads) - o mais potente do mercado",
@@ -234,7 +234,7 @@
   },
   {
     "nome": "Asus Vivobook Go 15",
-    "imagem": "../img/ASUS VivobookGo15.webp",
+    "imagem": "../img/ASUSVivobookGo15.webp",
     "descricao": "Notebook básico e leve, ideal para tarefas diárias e uso escolar.",
     "positivos": [
       "Tela Full HD de 15,6” antirreflexo",
@@ -271,3 +271,4 @@
     "preco": 2200
   }
 ]
+
