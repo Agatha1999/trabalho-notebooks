@@ -1,0 +1,273 @@
+[
+  {
+    "nome": "Dell Inspiron 15 (i5-1235U, 8GB RAM, 256GB SSD)",
+    "imagem": "../img/dell inspiron15.jfif",
+    "descricao": "Notebook para produtividade e uso geral com construção robusta.",
+    "positivos": [
+      "Processador Intel i5-1235U (10 núcleos, 12 threads) – bom para multitarefa",
+      "Tela Full HD 15.6\" anti-reflexo (óptima para escritório)",
+      "Construção durável com chassis reforçado",
+      "Teclado numérico e touchpad preciso",
+      "Bateria de até 8h em uso moderado"
+    ],
+    "negativos": [
+      "8GB RAM (soldada) – limitante para edição pesada",
+      " 256GB SSD (sem slot extra) – pouco espaço para projetos grandes",
+      "GPU Intel Iris Xe (integrada) – roda apenas edição leve (1080p simples)",
+      "Refrigeração básica – pode esquentar em tarefas prolongadas"
+    ],
+    "perfil": [
+      "Estudantes",
+      "Home office",
+      "Edição de vídeo básica"
+    ],
+    "especificacoes": {
+      "processador": "Intel i5-1235U",
+      "ram": "8GB",
+      "ssd": " 256GB SSD",
+      "tela": "15.6\" Full HD anti-reflexo",
+      "gpu": "Intel Iris Xe integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 3200
+  },
+  {
+    "nome": "ASUS VivoBook 15 (Ryzen 7 7520U, 16GB RAM, 256GB SSD)",
+    "imagem": "../img/ASUS VivoBook15.jfif",
+    "descricao": "Notebook fino e leve com desempenho premium para produtividade.",
+    "positivos": [
+      "Processador AMD Ryzen 7 7520U (Zen 3, 8 núcleos) – excelente para edição e multitarefa",
+      "16GB RAM LPDDR5 (soldada, mas suficiente para a maioria dos usos)",
+      "Tela IPS Full HD 15.6\" (cores vibrantes, 300 nits de brilho)",
+      "Design ultrafino (1.7kg) e acabamento premium",
+      "Teclado ergonômico com key travel de 1.4mm"
+    ],
+    "negativos": [
+      "256GB SSD (sem expansão) – limitante para arquivos grandes",
+      "GPU Radeon 610M (integrada) – não roda jogos pesados ou After Effects",
+      "Som médio (alto-falantes básicos)",
+      "Sem entrada Ethernet – depende de Wi-Fi"
+    ],
+    "perfil": [
+      "Editores de vídeo intermediários",
+      "Designers gráficos",
+      "Trabalho remoto"
+    ],
+    "especificacoes": {
+      "processador": "AMD Ryzen 7 7520U",
+      "ram": "16GB",
+      "ssd": "256GB SSD",
+      "tela": "15.6\" IPS Full HD",
+      "gpu": "Radeon 610M integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 4500
+  },
+  {
+    "nome": "Lenovo IdeaPad 3 (Ryzen 5 5500U, 8GB RAM, 512GB SSD)",
+    "imagem": "../img/Lenovo IdeaPad3.jfif",
+    "descricao": "Notebook equilibrado com ótimo custo-benefício e armazenamento amplo.",
+    "positivos": [
+      "Processador AMD Ryzen 5 5500U (6 núcleos, 12 threads) – desempenho superior ao i5 em multitarefa",
+      "512GB SSD NVMe – mais espaço que os concorrentes",
+      "Tela Full HD 15.6\" IPS (boa para edição de cores)",
+      "Upgrade fácil (1 slot RAM livre + SSD substituível)",
+      "Bateria de 7h e peso leve (1.65kg)"
+    ],
+    "negativos": [
+      "8GB RAM (4GB soldada + 4GB expansível) – ideal upgradar para 12GB/16GB",
+      "GPU Vega 7 (integrada) – limitada para 3D ou edição 4K",
+      "Construção em plástico – menos premium que o ASUS",
+      "Refrigeração média – pode trottlear em cargas prolongadas"
+    ],
+    "perfil": [
+      "Edição de vídeo leve a moderada",
+      "Programação",
+      "Uso geral com melhor custo-benefício"
+    ],
+    "especificacoes": {
+      "processador": "AMD Ryzen 5 5500U",
+      "ram": "8GB",
+      "ssd": "512GB SSD",
+      "tela": "15.6\" IPS Full HD",
+      "gpu": "Vega 7 integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 2500
+  },
+  {
+    "nome": "Acer Aspire 5 (i5 13ª geração)",
+    "imagem": "../img/acer aspire5.webp",
+    "descricao": "Notebook com processador i5 13ª geração, bom para multitarefa e upgrades futuros.",
+    "positivos": [
+      "Processador i5 13ª geração com bom desempenho para multitarefa.",
+      "Dois slots de RAM e dois slots M.2 para SSD, permitindo upgrades futuros.",
+      "Tela 15,6” Full HD IPS com antirreflexo, boa para leitura.",
+      "SSD rápido, deixando o sistema ágil.",
+      "Peso razoável (~1,7 kg).",
+      "Refrigeração adequada para uso leve e moderado."
+    ],
+    "negativos": [
+      "Consome mais energia, bateria pode durar menos em uso intenso.",
+      "Pode esquentar e ventilar barulhento em multitarefas pesadas.",
+      "Corpo em plástico, menos resistente.",
+      "Tela com brilho baixo (~250 nits), ruim para ambientes externos.",
+      "Algumas versões vêm com 8 GB RAM single channel.",
+      "Abrir para upgrade pode anular a garantia."
+    ],
+    "perfil": [
+      "Uso geral",
+      "Estudante",
+      "Produtividade"
+    ],
+    "especificacoes": {
+      "processador": "Intel i5 13ª geração",
+      "ram": "8GB",
+      "ssd": "256GB SSD",
+      "tela": "15.6\" Full HD IPS antirreflexo",
+      "gpu": "Integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 3500
+  },
+  {
+    "nome": "Samsung Galaxy Book 4 (i3)",
+    "imagem": "../img/Galaxy Book4.jpg",
+    "descricao": "Notebook leve e eficiente para tarefas básicas e uso escolar.",
+    "positivos": [
+      "Processador i3 eficiente para tarefas básicas e baixo consumo de energia.",
+      "RAM de 8 GB suficiente para uso escolar, mesmo sem upgrade.",
+      "SSD rápido, boa fluidez.",
+      "Leve e fino, fácil de transportar.",
+      "Tela 14” Full HD com boa definição.",
+      "Sistema de refrigeração mantém o aparelho frio em uso leve."
+    ],
+    "negativos": [
+      "Processador menos potente, pode travar em multitarefas pesadas.",
+      "RAM soldada, sem possibilidade de upgrade.",
+      "Apenas um slot M.2 para SSD, limita expansão.",
+      "Tela com brilho médio, não ideal para ambientes muito claros.",
+      "Pode esquentar em uso pesado.",
+      "Tela menor pode não agradar quem prefere mais espaço de visualização."
+    ],
+    "perfil": [
+      "Estudante",
+      "Uso geral",
+      "Leve"
+    ],
+    "especificacoes": {
+      "processador": "Intel i3",
+      "ram": "8GB",
+      "ssd": "256GB SSD",
+      "tela": "14\" Full HD",
+      "gpu": "Integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 2800
+  },
+  {
+    "nome": "Notebook HP com Intel Core i5-1334U",
+    "imagem": "../img/HP i5-1334U.webp",
+    "descricao": "Notebook eficiente e econômico para tarefas escolares e uso geral.",
+    "positivos": [
+      "Processador i5 eficiente e econômico para tarefas escolares.",
+      "Boa autonomia de bateria.",
+      "Geralmente leve e fino, fácil de carregar.",
+      "SSD rápido, sistema ágil.",
+      "Tela Full HD com boa definição."
+    ],
+    "negativos": [
+      "Desempenho limitado para multitarefas pesadas.",
+      "Possível limitação para upgrade de RAM (RAM soldada ou slot único).",
+      "Armazenamento com apenas um slot M.2, expansão limitada.",
+      "Tela com brilho médio, ruim para ambientes muito claros.",
+      "Refrigeração básica, pode esquentar com uso intenso.",
+      "Portas limitadas em modelos mais compactos."
+    ],
+    "perfil": [
+      "Estudante",
+      "Uso geral",
+      "Escritório"
+    ],
+    "especificacoes": {
+      "processador": "Intel Core i5-1334U",
+      "ram": "8GB",
+      "ssd": "256GB SSD",
+      "tela": "15.6\" Full HD",
+      "gpu": "Integrada",
+      "sistema": "Windows 11"
+    },
+    "preco": 3000
+  },
+  {
+    "nome": "Notebook Gamer Alienware m16 R2",
+    "imagem": "../img/Alienware m16 R2.jfif",
+    "descricao": "Máquina premium para jogos e edição profissional com specs top de linha",
+    "positivos": [
+      "Processador Intel Core i9-14900HX (24 núcleos/32 threads) - o mais potente do mercado",
+      "Placa de vídeo RTX 4090 (16GB GDDR6) - roda qualquer jogo em 4K Ultra",
+      "Tela QHD+ 240Hz com 100% DCI-P3 - cores precisas para designers",
+      "32GB RAM DDR5 (upgradeável até 64GB) - multitarefa pesada",
+      "Sistema de resfriamento Cryo-Tech - 4 ventoinhas + tubos de calor",
+      "Teclado mecânico com RGB personalizável",
+      "2 slots SSD NVMe (1TB + expansível)"
+    ],
+    "negativos": [
+      "Preço extremamente alto (a partir de R$ 25.000)",
+      "Muito pesado (3.1kg) - difícil transportar",
+      "Bateria fraca (3-4h em uso normal)",
+      "Excesso de iluminação RGB pode incomodar"
+    ],
+    "perfil": [
+      "Gamer",
+      "Criador de conteúdo"
+    ],
+    "especificacoes": {
+      "processador": "Intel Core i9-14900HX (24 núcleos/32 threads)",
+      "ram": "32GB DDR5 (upgradeável até 64GB)",
+      "ssd": "1TB SSD NVMe (2 slots)",
+      "tela": "16\" QHD+ 240Hz 100% DCI-P3",
+      "gpu": "RTX 4090 16GB GDDR6",
+      "sistema": "Windows 11"
+    },
+    "preco": 15000
+  },
+  {
+    "nome": "Asus Vivobook Go 15",
+    "imagem": "../img/ASUS VivobookGo15.webp",
+    "descricao": "Notebook básico e leve, ideal para tarefas diárias e uso escolar.",
+    "positivos": [
+      "Tela Full HD de 15,6” antirreflexo",
+      "Design fino e leve (1,63 kg)",
+      "Processador Ryzen 3 7320U: bom para tarefas básicas",
+      "SSD NVMe de 128 GB: rápido",
+      "Boa bateria (até 9h em uso leve)",
+      "Conexões modernas: USB-C, HDMI, Wi-Fi 5",
+      "Teclado ABNT2 com numérico",
+      "Webcam com tampa física",
+      "Construção resistente (certificação militar)"
+    ],
+    "negativos": [
+      "Apenas 4 GB de RAM (soldada, sem upgrade)",
+      "Armazenamento de 128 GB pode ser pouco",
+      "Tela com painel TN: ângulos e cores inferiores",
+      "Desempenho limitado para jogos e multitarefa",
+      "USB-C não transmite vídeo nem carrega",
+      "Vem com Linux (KeepOS): pode exigir troca por Windows"
+    ],
+    "perfil": [
+      "Estudante",
+      "Uso geral",
+      "Produtividade"
+    ],
+    "especificacoes": {
+      "processador": "AMD Ryzen 3 7320U",
+      "ram": "4GB",
+      "ssd": "128GB SSD NVMe",
+      "tela": "15.6\" Full HD antirreflexo",
+      "gpu": "Integrada",
+      "sistema": "Linux KeepOS"
+    },
+    "preco": 2200
+  }
+]

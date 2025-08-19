@@ -1,0 +1,485 @@
+:root {
+  --color1: #ef9a3d; /* Laranja - como acento */
+  --color2: #fad955; /* Amarelo - como destaque */
+  --color3: #2d75a2; /* Azul principal */
+  --color4: #a8676b; /* Rosa escuro */
+  --color5: #d2a9ae; /* Rosa claro */
+  --bg-dark: #1a1a2e; /* Fundo escuro inspirado na imagem */
+  --text-light: #f8f8f8;
+  --text-muted: #cccccc;
+  --card-bg: #16213e;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-dark);
+  margin: 0;
+  padding: 0;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, var(--card-bg), var(--bg-dark));
+  color: var(--text-light);
+  padding: 2rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color1), var(--color2), var(--color3));
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filtro {
+  margin-top: 1.5rem;
+  display: inline-flex;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 0.3rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.filtro label {
+  font-weight: 500;
+  margin: 0 0.8rem;
+  align-self: center;
+  color: var(--text-muted);
+}
+
+.filtro select {
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  cursor: pointer;
+  appearance: none;
+  transition: all 0.3s ease;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 1rem;
+  color: var(--text-light);
+}
+
+.filtro select option {
+  color: var(--text-light);
+  background-color: var(--card-bg);
+}
+
+.filtro select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color1);
+  color: var(--text-light);
+  background-color: var(--card-bg);
+}
+
+.filtro select:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.filtro select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 colunas igualmente espaçadas */
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1600px; /* Aumentei para acomodar 4 cards largos */
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* Mantém todas as propriedades originais */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color3), var(--color1));
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(20%) contrast(110%);
+  transition: filter 0.3s ease;
+}
+
+.card:hover img {
+  filter: grayscale(0%) contrast(100%);
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 1rem;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  padding-bottom: 0.8rem;
+}
+
+.card h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--color1);
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.especificacoes {
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.especificacoes p {
+  margin: 0.7rem 0;
+  font-size: 0.9rem;
+  display: flex;
+}
+
+.especificacoes p strong {
+  display: inline-block;
+  width: 150px;
+  color: var(--color5);
+  font-weight: 500;
+}
+
+.positivo {
+  color: var(--color2);
+  font-weight: 500;
+}
+
+.negativo {
+  color: var(--color4);
+  font-weight: 500;
+}
+
+.perfil {
+  display: inline-block;
+  margin-top: 1rem;
+  background: rgba(45, 117, 162, 0.2);
+  color: var(--color2);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(45, 117, 162, 0.4);
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .filtro {
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .filtro label {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* New styles for price, compare checkbox, compare button, and modal */
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color2);
+  margin: 0.5rem 0;
+}
+
+.compare-checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.card {
+  position: relative; /* for checkbox positioning */
+}
+
+#compare-btn {
+  background-color: var(--color1);
+  color: var(--text-light);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#compare-btn:disabled {
+  background-color: rgba(239, 154, 61, 0.5);
+  cursor: not-allowed;
+}
+
+#compare-btn:hover:not(:disabled) {
+  background-color: var(--color3);
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 46, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: auto;
+  padding: 1rem;
+}
+
+.modal-content {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  color: var(--text-light);
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--color4);
+  border: none;
+  color: var(--text-light);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#close-modal:hover {
+  background: var(--color1);
+}
+
+.modal table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.modal th, .modal td {
+  border: 1px solid var(--color5);
+  padding: 0.6rem;
+}
+
+.modal th {
+  background-color: var(--color3);
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.modal td {
+  background-color: var(--bg-dark);
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* New styles for price, compare checkbox, button, and modal */
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color2);
+  margin: 0.5rem 0;
+}
+
+.compare-checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#compare-btn {
+  background-color: var(--color1);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#compare-btn:disabled {
+  background-color: rgba(239, 154, 61, 0.5);
+  cursor: not-allowed;
+}
+
+#compare-btn:hover:not(:disabled) {
+  background-color: var(--color2);
+  color: var(--bg-dark);
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 26, 46, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  color: var(--text-light);
+  position: relative;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#close-modal {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--color4);
+  border: none;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#close-modal:hover {
+  background: var(--color1);
+}
+
+.modal table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.modal th, .modal td {
+  border: 1px solid var(--color5);
+  padding: 0.8rem;
+}
+
+.modal th {
+  background-color: var(--color3);
+  color: var(--text-light);
+  font-weight: 600;
+}
+
+.modal td {
+  background-color: var(--bg-dark);
+}
