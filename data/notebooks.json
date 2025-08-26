@@ -1,7 +1,7 @@
 [
   {
     "nome": "Dell Inspiron 15 (i5-1235U, 8GB RAM, 256GB SSD)",
-    "imagem": "img/Delllnspiron15.jfif",
+    "imagem": "img/DellInspiron15.jfif",
     "descricao": "Notebook para produtividade e uso geral com construção robusta.",
     "positivos": [
       "Processador Intel i5-1235U (10 núcleos, 12 threads) – bom para multitarefa",
@@ -271,6 +271,7 @@
     "preco": 2200
   }
 ]
+
 
 
 
