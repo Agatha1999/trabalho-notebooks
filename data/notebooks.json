@@ -1,7 +1,7 @@
 [
   {
     "nome": "Dell Inspiron 15 (i5-1235U, 8GB RAM, 256GB SSD)",
-    "imagem": "img/dellinspiron15.jfif",
+    "imagem": "img/Dellinspiron15.jfif",
     "descricao": "Notebook para produtividade e uso geral com construção robusta.",
     "positivos": [
       "Processador Intel i5-1235U (10 núcleos, 12 threads) – bom para multitarefa",
@@ -33,7 +33,7 @@
   },
   {
     "nome": "ASUS VivoBook 15 (Ryzen 7 7520U, 16GB RAM, 256GB SSD)",
-    "imagem": "img/ASUSVivoBook15.jfif",
+    "imagem": "img/ASUSVivobook15.jfif",
     "descricao": "Notebook fino e leve com desempenho premium para produtividade.",
     "positivos": [
       "Processador AMD Ryzen 7 7520U (Zen 3, 8 núcleos) – excelente para edição e multitarefa",
@@ -97,7 +97,7 @@
   },
   {
     "nome": "Acer Aspire 5 (i5 13ª geração)",
-    "imagem": "img/aceraspire5.webp",
+    "imagem": "img/AcerAspire5.webp",
     "descricao": "Notebook com processador i5 13ª geração, bom para multitarefa e upgrades futuros.",
     "positivos": [
       "Processador i5 13ª geração com bom desempenho para multitarefa.",
@@ -167,7 +167,7 @@
   },
   {
     "nome": "Notebook HP com Intel Core i5-1334U",
-    "imagem": "img/HPi5-1334U.webp",
+    "imagem": "img/HPI5-1334U.webp",
     "descricao": "Notebook eficiente e econômico para tarefas escolares e uso geral.",
     "positivos": [
       "Processador i5 eficiente e econômico para tarefas escolares.",
@@ -271,4 +271,5 @@
     "preco": 2200
   }
 ]
+
 
